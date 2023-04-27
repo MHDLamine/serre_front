@@ -3,7 +3,7 @@ import App from "./App";
 import Parametre from "./composants/parametre";
 import Connexion from "./composants/connexion";
 import Dashboard from "./composants/dashboard";
-import Historique from "./composants/historique";
+/* import Historique from "./composants/historique"; */
 import Personnaliser from "./composants/personnaliser";
 import "./index.css";
 import ReactDOM from "react-dom/client";
@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-  {
+/*   {
     path: "historique/",
     element: <Historique />,
-  },
+  }, */
   {
     path: "dashboard/",
     element: <Dashboard />,
