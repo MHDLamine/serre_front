@@ -87,7 +87,7 @@ const Historique = () => {
   };
   const usenavigate = useNavigate();
   if (localStorage.getItem("token") == undefined) {
-    usenavigate("/");
+    return (<div>Not found</div>)
   } else {
     return (
       <>
